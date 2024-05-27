@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background: #c7b98e
 }
 
 .logo-container {
@@ -65,7 +66,6 @@ nav ul li:hover {
 }
 
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ nav ul li:hover {
 }
 
 .promo {
-    background: linear-gradient(45deg, #fff, #333, #fff);
+    background: linear-gradient(45deg, #384671, #a6936b, #384671);
     margin: 0 1em;
     padding: 1em;
     text-align: center;
