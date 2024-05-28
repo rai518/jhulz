@@ -184,7 +184,10 @@ nav ul li:hover {
 }
 .button-container {
     display: flex;
-    justify-content: center; /* Align buttons to the center horizontally */
+    justify-content: center;
+}
+#visit iframe {
+    margin-bottom: 20px;
 }
 button {
     display: inline-block;
@@ -204,6 +207,7 @@ button:hover {
     transform: scale(1.05);
 }
 .button-blue {
+    text-decoration: none;
     background-color: #1877F2;
     color: white;
     display: inline-block;
